@@ -1,10 +1,9 @@
-
-@media screen and (min-device-width: 960px){
+@media screen and (min-width:959px){
 
     body{
      background-image: url(../img/background_960.jpg);
      background-repeat: no-repeat;
-     width: 2396px;
+     width: 1920px;
      display: flex;
      flex-direction: column;
      justify-content: center;
