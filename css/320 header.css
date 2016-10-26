@@ -286,10 +286,6 @@ header{
   height: 500px;
 }
 
-.about_left, .about_center, .about_right{
-  visibility: hidden;
-}
-
 .About_company a{
   font-family: "league_gothic";
   font-size: 18px;
@@ -378,8 +374,6 @@ header{
     left: 1079px;
     width: 320px;
     height: 500px;
-    background-image: url(../img/background_main320.png);
-    background-repeat: no-repeat;
   }
 
   .main_aside{
@@ -389,14 +383,19 @@ header{
     align-items: flex-start;
     position: absolute;
     top: -17px;
-    left: -2px;
+    left: -39px;
+    background-image: url(../img/background_main320.png);
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    width: 260px;
+    height: 277px;
   }
 
   .main_aside img{
     padding-right: 14px;
     position: absolute;
     top: 23px;
-    left: -58px;
+    left: -21px;
   }
 
   .main_aside p{
@@ -413,6 +412,7 @@ header{
     color: rgb(237, 191, 255);
     position: absolute;
     top: 24px;
+    left: 38px;
     width: 150px;
   }
 
@@ -683,4 +683,79 @@ header{
       font-size: 12px;
       letter-spacing: -0.4px;
     }
+
+    .About_company p{
+      font-family: "league_gothic";
+      font-size: 25px;
+      color: rgb(254, 254, 254);
+      text-transform: uppercase;
+      letter-spacing: -0.3px;
+    }
+
+    .about_left{
+      position: relative;
+      left: 88px;
+      top: 11px;
+    }
+
+    .about_center{
+      position: relative;
+      left: 88px;
+      top: 113px;
+    }
+
+    .about_right{
+      position: relative;
+      left: 88px;
+      top: 231px;
+    }
+
+    .about_left .left_text, .about_center .center_text, .about_right .right_text{
+      position: absolute;
+      top: -41px;
+      left: 2px;
+      font-size: 16.5px;
+      font-family: sans-serif;
+      color: rgb(188, 188, 190);
+      text-transform: none;
+      width: 195px;
+      height: 70px;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      word-break: break-all;
+      hyphens: auto;
+      letter-spacing: 0;
+      word-spacing: 0;
+      line-height: 1.45;
+    }
+
+    .main_aside .quote_text {
+      font-size: 17px;
+      font-family: sans-serif;
+      color: rgb(147, 147, 147);
+      text-transform: none;
+      width: 180px;
+      height: 165px;
+      white-space: pre-wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      letter-spacing: -0.7px;
+      word-spacing: 0;
+      line-height: 1.45;
+      position: absolute;
+      top:81px;
+      left: 42px;
+    }
+
+      .main_pingbuller{
+        position: absolute;
+        top: 0px;
+        left: 37px;
+      }
+
+      .footer_text{
+        visibility: hidden;
+      }
+
 }

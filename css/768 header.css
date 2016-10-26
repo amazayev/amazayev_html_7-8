@@ -115,7 +115,7 @@ header{
   letter-spacing: 0px;
   word-spacing: 0px;
   position: absolute;
-  top: 395px;
+  top: 394px;
   left: 859px;
   height: 24px;
   width: 280px;
@@ -197,13 +197,20 @@ header{
 }
 
 .scroller_text{
-  display: block;
-  background-image: url(../img/scroller_768.jpg);
-  height: 97px;
-  width: 270px;
-  position: absolute;
-  top: 429px;
-  left: 858px;
+    display: block;
+    height: 105px;
+    width: 260px;
+    position: absolute;
+    top: 428px;
+    left: 858px;
+    font-family: sans-serif;
+    font-size: 16.5px;
+    color: rgb(254, 254, 254);
+    word-break: break-all;
+    word-wrap: break-word;
+    line-height: 1.67;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .About_company{
@@ -212,13 +219,8 @@ header{
   left: 866px;
   width: 100%;
   height: 500px;
-  background-image: url(../img/about_768.jpg);
-  background-repeat: no-repeat;
 }
 
-.about_left, .about_center, .about_right{
-  visibility: hidden;
-}
 
 .About_company a{
   font-family: "league_gothic";
@@ -308,8 +310,6 @@ header{
     left: 890px;
     width: 768px;
     height: 500px;
-    background-image: url(../img/background_main768.png);
-    background-repeat: no-repeat;
   }
 
   .main_aside{
@@ -318,8 +318,8 @@ header{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: -100px;
-    left: -94px;
+    top: -102px;
+    left: -95px;
   }
 
   .main_aside img{
@@ -535,15 +535,13 @@ header{
     }
 
     footer{
-      background-image: url(../img/footer_background768.jpg);
-      background-repeat: no-repeat;
       display: flex;
       flex-direction: row;
       height: 224px;
       width: 760px;
       position: relative;
-      top: 1833px;
-      left: -817px;
+      top: 1832px;
+      left: 336px;
     }
 
     .header_menu_3{
@@ -555,8 +553,9 @@ header{
       justify-content: flex-start;
       align-items: center;
       position: absolute;
-      top: 326px;
-      left: -32px;
+      top: 327px;
+      left: -33px;
+      width: 800px;
     }
 
     .header_menu_3 a{
@@ -603,4 +602,188 @@ header{
       font-size: 12px;
       letter-spacing: -0.4px;
     }
+
+    .About_company p{
+      font-family: "league_gothic";
+      font-size: 25px;
+      color: rgb(254, 254, 254);
+      text-transform: uppercase;
+      letter-spacing: -0.3px;
+    }
+
+    .about_left{
+      position: relative;
+      left: 31px;
+      top: 46px;
+    }
+
+    .about_center{
+      position: relative;
+      left: 283px;
+      top: -9px;
+    }
+
+    .about_right{
+      position: relative;
+      left: 544px;
+      top: -63px;
+    }
+
+    .about_left .left_text, .about_center .center_text, .about_right .right_text{
+      position: absolute;
+      top: -39px;
+      left: 2px;
+      font-size: 16.5px;
+      font-family: sans-serif;
+      color: rgb(188, 188, 190);
+      text-transform: none;
+      width: 180px;
+      height: 140px;
+      white-space: pre-wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      letter-spacing: 0.05px;
+      word-spacing: 0;
+      line-height: 1.45;
+    }
+
+    .main_aside .quote_text {
+      font-size: 17px;
+      font-family: sans-serif;
+      color: rgb(147, 147, 147);
+      text-transform: none;
+      width: 250px;
+      height: 150px;
+      white-space: pre-wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      letter-spacing: -0.61px;
+      word-spacing: 0;
+      line-height: 1.45;
+      position: absolute;
+      top: 90px;
+      left: 62px;
+    }
+
+    .footer_text .footer_pingbull, .footer_text .footer_er{
+      font-family: "league_gothic";
+      font-size: 48px;
+      text-transform: uppercase;
+      visibility: hidden;
+    }
+
+      .footer_text .footer_pingbull{
+        color: rgb(69, 69, 69);
+        position: absolute;
+        top: -46px;
+        left: 15px;
+      }
+
+      .footer_text .footer_er{
+        color: rgb(185, 185, 185);
+        position: absolute;
+        top: -46px;
+        left: 120px;
+      }
+
+      .footer_text .footer_copyright{
+        font-size: 17px;
+        font-style: italic;
+        color: rgb(201, 201, 201);
+        position: absolute;
+        top: 50px;
+        left: 16px;
+        text-shadow: 0 1px 1px rgb(254, 254, 254), 0 0 0 white;
+        visibility: hidden;
+      }
+
+    .footer_text .footer_textleft{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: rgb(147, 147, 147);
+    text-transform: none;
+    width: 220px;
+    height: 175px;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    letter-spacing: -0.6px;
+    word-spacing: 0;
+    line-height: 1.45;
+    position: absolute;
+    top: 25px;
+    left: 9px;
+    }
+
+    .footer_text .footer_textcenter{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: rgb(147, 147, 147);
+    text-transform: none;
+    width: 220px;
+    height: 175px;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    letter-spacing: -0.6px;
+    word-spacing: 0;
+    line-height: 1.45;
+    position: absolute;
+    top:25px;
+    left: 275px;
+    }
+
+    .footer_text .footer_textright{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: rgb(147, 147, 147);
+    text-transform: none;
+    width: 220px;
+    height: 175px;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    letter-spacing: -0.6px;
+    word-spacing: 0;
+    line-height: 1.45;
+    position: absolute;
+    top: 25px;
+    left: 538px;
+    }
+
+    .footer_news1, .footer_news2, .footer_news3{
+      font-family: "league_gothic";
+      font-size: 24px;
+      text-transform: uppercase;
+      color: rgb(69, 69, 69);
+      width: 200px;
+    }
+
+    .footer_news1{
+    position: absolute;
+    top: -18px;
+    left: 8px;
+    }
+
+    .footer_news2{
+    position: absolute;
+    top: -18px;
+    left: 275px;
+    }
+
+    .footer_news3{
+    position: absolute;
+    top: -18px;
+    left: 538px;
+    }
+
+   .footer_comments{
+     visibility: hidden;
+   }
+
 }

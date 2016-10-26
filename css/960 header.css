@@ -203,12 +203,20 @@
 
   .scroller_text{
     display: block;
-    background-image: url(../img/scroller_960.jpg);
     height: 140px;
-    width: 501px;
+    width: 530px;
     position: absolute;
-    top: 452px;
+    top: 453px;
     left: 717px;
+    font-family: sans-serif;
+    font-size: 17.5px;
+    color: rgb(237, 237, 237);
+    letter-spacing: 0.47px;
+    word-spacing: -0.15px;
+    line-height: 1.4;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
 .About_company{
@@ -216,20 +224,6 @@
   top: 917px;
   left: 771px;
   width: 100%;
-}
-
-.About_company span{
-  margin-right: 94px;
-}
-
-.about_center{
-  position: relative;
-  left: 1px;
-}
-
-.about_right{
-  position: relative;
-  left: -1px;
 }
 
 .About_company a{
@@ -532,8 +526,6 @@
 }
 
 footer{
-  background-image: url(../img/footer_background960.jpg);
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
   height: 224px;
@@ -604,4 +596,177 @@ footer{
   visibility: hidden;
 }
 
+.About_company p{
+  font-family: "league_gothic";
+  font-size: 28px;
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+}
+
+.about_left{
+  position: relative;
+  left: 11px;
+  top: -25px;
+}
+
+.about_center{
+  position: relative;
+  left: 350px;
+  top: -87px;
+}
+
+.about_right{
+  position: relative;
+  left: 687px;
+  top: -150px;
+}
+
+.about_left .left_text, .about_center .center_text, .about_right .right_text{
+  position: absolute;
+  top: -37px;
+  left: -2px;
+  font-size: 16.5px;
+  font-family: sans-serif;
+  color: rgb(188, 188, 190);
+  text-transform: none;
+  width: 250px;
+  height: 120px;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  letter-spacing: 0.05px;
+  word-spacing: 0;
+  line-height: 1.45;
+}
+
+.main_aside .quote_text {
+  font-size: 17px;
+  font-family: sans-serif;
+  color: rgb(147, 147, 147);
+  text-transform: none;
+  width: 360px;
+  height: 200px;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  letter-spacing: -0.38px;
+  word-spacing: 0;
+  line-height: 1.45;
+  position: absolute;
+  top: 74px;
+  left: 61px;
+}
+
+  .footer_text .footer_pingbull, .footer_text .footer_er{
+    font-family: "league_gothic";
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+
+    .footer_text .footer_pingbull{
+      color: rgb(69, 69, 69);
+      position: absolute;
+      top: -46px;
+      left: 15px;
+    }
+
+    .footer_text .footer_er{
+      color: rgb(185, 185, 185);
+      position: absolute;
+      top: -46px;
+      left: 120px;
+    }
+
+    .footer_text .footer_copyright{
+      font-size: 17px;
+      font-style: italic;
+      color: rgb(201, 201, 201);
+      position: absolute;
+      top: 50px;
+      left: 16px;
+      text-shadow: 0 1px 1px rgb(254, 254, 254), 0 0 0 white;
+    }
+
+.footer_text .footer_textleft{
+  font-size: 17px;
+  font-family: sans-serif;
+  color: rgb(147, 147, 147);
+  text-transform: none;
+  width: 285px;
+  height: 120px;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  letter-spacing: -0.6px;
+  word-spacing: 0;
+  line-height: 1.45;
+  position: absolute;
+  top: 80px;
+  left: 16px;
+}
+
+.footer_text .footer_textcenter{
+  font-size: 17px;
+  font-family: sans-serif;
+  color: rgb(147, 147, 147);
+  text-transform: none;
+  width: 295px;
+  height: 200px;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  letter-spacing: -0.6px;
+  word-spacing: 0;
+  line-height: 1.45;
+  position: absolute;
+  top:32px;
+  left: 355px;
+}
+
+.footer_text .footer_textright{
+  font-size: 17px;
+  font-family: sans-serif;
+  color: rgb(147, 147, 147);
+  text-transform: none;
+  width: 295px;
+  height: 200px;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  letter-spacing: -0.6px;
+  word-spacing: 0;
+  line-height: 1.45;
+  position: absolute;
+  top: 32px;
+  left: 695px;
+}
+
+.footer_news2, .footer_news3{
+  visibility: hidden;
+}
+
+.footer_comments, .footer_news1{
+  font-family: "league_gothic";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(69, 69, 69);
+}
+
+.footer_comments{
+  position: absolute;
+  top: -23px;
+  left: 355px;
+}
+
+.footer_news1{
+  position: absolute;
+  top: -23px;
+  left: 695px;
+}
   }
