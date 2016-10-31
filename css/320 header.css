@@ -693,21 +693,27 @@ header{
     }
 
     .about_left{
-      position: relative;
+      position: absolute;;
       left: 88px;
-      top: 11px;
+      top: 91px;
     }
 
     .about_center{
-      position: relative;
+      position: absolute;
       left: 88px;
-      top: 113px;
+      top: 249px;
     }
 
     .about_right{
-      position: relative;
+      position: absolute;
       left: 88px;
-      top: 231px;
+      top: 421px;
+    }
+
+    .about_headerleft, .about_headercenter, .about_headerright{
+      width: 200px;
+      position: absolute;
+      top: -81px;
     }
 
     .about_left .left_text, .about_center .center_text, .about_right .right_text{

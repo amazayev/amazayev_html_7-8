@@ -90,17 +90,13 @@ header{
   left: 725px;
 }
 
-.scroller{
-  width: 300px;
-}
-
 .scroller_h1{
   color: rgb(254, 254, 254);
   font-family: "league_gothic";
   font-size: 47px;
   text-shadow: 0 0 1px rgb(165, 159, 166), 0 0 1px black;
-  letter-spacing: 0px;
-  word-spacing: 0px;
+  letter-spacing: 0;
+  word-spacing: 0;
   position: absolute;
   top: 305px;
   left: 860px;
@@ -199,7 +195,7 @@ header{
 .scroller_text{
     display: block;
     height: 105px;
-    width: 260px;
+    width: 27.5vw;
     position: absolute;
     top: 428px;
     left: 858px;
@@ -612,21 +608,27 @@ header{
     }
 
     .about_left{
-      position: relative;
+      position: absolute;
       left: 31px;
-      top: 46px;
+      top: 126px;
     }
 
     .about_center{
-      position: relative;
+      position: absolute;
       left: 283px;
-      top: -9px;
+      top: 126px;
     }
 
     .about_right{
-      position: relative;
+      position: absolute;
       left: 544px;
-      top: -63px;
+      top: 126px;
+    }
+
+    .about_headerleft, .about_headercenter, .about_headerright{
+      width: 21vw;
+      position: absolute;
+      top: -79px;
     }
 
     .about_left .left_text, .about_center .center_text, .about_right .right_text{
@@ -637,7 +639,7 @@ header{
       font-family: sans-serif;
       color: rgb(188, 188, 190);
       text-transform: none;
-      width: 180px;
+      width: 18vw;
       height: 140px;
       white-space: pre-wrap;
       text-overflow: ellipsis;
@@ -653,7 +655,7 @@ header{
       font-family: sans-serif;
       color: rgb(147, 147, 147);
       text-transform: none;
-      width: 250px;
+      width: 27vw;
       height: 150px;
       white-space: pre-wrap;
       text-overflow: ellipsis;
@@ -704,7 +706,7 @@ header{
     font-family: sans-serif;
     color: rgb(147, 147, 147);
     text-transform: none;
-    width: 220px;
+    width: 23vw;
     height: 175px;
     white-space: pre-wrap;
     text-overflow: ellipsis;
@@ -723,7 +725,7 @@ header{
     font-family: sans-serif;
     color: rgb(147, 147, 147);
     text-transform: none;
-    width: 220px;
+    width: 23vw;
     height: 175px;
     white-space: pre-wrap;
     text-overflow: ellipsis;
@@ -742,7 +744,7 @@ header{
     font-family: sans-serif;
     color: rgb(147, 147, 147);
     text-transform: none;
-    width: 220px;
+    width: 23vw;
     height: 175px;
     white-space: pre-wrap;
     text-overflow: ellipsis;

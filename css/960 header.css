@@ -52,7 +52,8 @@
     position: absolute;
     top: 69px;
     left: 847px;
-    width: 100%;
+    max-width: 100%;
+    min-width: 90%;
     text-shadow: 1.5px 1.5px 2px rgb(143, 129, 132), 0 0 0 black;
   }
 
@@ -91,11 +92,6 @@
     left: 725px;
   }
 
-
-  .scroller{
-    width: 300px;
-  }
-
   .scroller_h1{
     color: rgb(254, 254, 254);
     font-family: "league_gothic";
@@ -106,7 +102,7 @@
     position: absolute;
     top: 314px;
     left: 719.5px;
-    width: 330px;
+    min-width: 32%;
   }
 
   .scroller_h4{
@@ -120,7 +116,7 @@
     top: 411px;
     left: 718px;
     height: 35px;
-    width: 500px;
+    min-width: 39%;
     overflow: hidden;
     margin: 0;
   }
@@ -129,7 +125,7 @@
     position: absolute;
     overflow: hidden;
     height: 100px;
-    width: 100px;
+    min-width: 11%;
     top: 764px;
     left: 1418px;
   }
@@ -204,7 +200,8 @@
   .scroller_text{
     display: block;
     height: 140px;
-    width: 530px;
+    min-width: 400px;
+    max-width: 35%;
     position: absolute;
     top: 453px;
     left: 717px;
@@ -312,7 +309,7 @@
   position: absolute;
   top: 1236px;
   left: 741px;
-  width: 960px;
+  width: 100%;
   height: 500px;
   background-image: url(../img/background_main.png);
   background-repeat: no-repeat;
@@ -605,21 +602,32 @@ footer{
 }
 
 .about_left{
-  position: relative;
-  left: 11px;
-  top: -25px;
+  position: absolute;
+  left: 12px;
+  top: 66px;
 }
 
 .about_center{
-  position: relative;
+  position: absolute;
   left: 350px;
-  top: -87px;
+  top: 66px;
 }
 
 .about_right{
-  position: relative;
+  position: absolute;
   left: 687px;
-  top: -150px;
+  top: 66px;
+}
+
+.about_headerleft, .about_headercenter, .about_headerright{
+  min-width: 200px;
+  position: absolute;
+  top: -91px;
+}
+
+.about_headerleft{
+  position: absolute;
+  left: -1px;
 }
 
 .about_left .left_text, .about_center .center_text, .about_right .right_text{
@@ -630,7 +638,8 @@ footer{
   font-family: sans-serif;
   color: rgb(188, 188, 190);
   text-transform: none;
-  width: 250px;
+  min-width: 17vw;
+  max-width: 20vw;
   height: 120px;
   white-space: pre-wrap;
   text-overflow: ellipsis;
@@ -646,8 +655,8 @@ footer{
   font-family: sans-serif;
   color: rgb(147, 147, 147);
   text-transform: none;
-  width: 360px;
-  height: 200px;
+  width: 25vw;
+  height: 170px;
   white-space: pre-wrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -695,7 +704,8 @@ footer{
   font-family: sans-serif;
   color: rgb(147, 147, 147);
   text-transform: none;
-  width: 285px;
+  min-width: 18vw;
+  max-width: 19vw;
   height: 120px;
   white-space: pre-wrap;
   text-overflow: ellipsis;
@@ -714,8 +724,9 @@ footer{
   font-family: sans-serif;
   color: rgb(147, 147, 147);
   text-transform: none;
-  width: 295px;
-  height: 200px;
+  min-width: 20vw;
+  max-width: 21vw;
+  height: 195px;
   white-space: pre-wrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -733,8 +744,9 @@ footer{
   font-family: sans-serif;
   color: rgb(147, 147, 147);
   text-transform: none;
-  width: 295px;
-  height: 200px;
+  min-width: 20vw;
+  max-width: 21vw;
+  height: 195px;
   white-space: pre-wrap;
   text-overflow: ellipsis;
   overflow: hidden;

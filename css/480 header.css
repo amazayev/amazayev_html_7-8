@@ -675,21 +675,27 @@ header{
     }
 
     .about_left{
-      position: relative;
+      position: absolute;
       left: 10px;
-      top: 48px;
+      top: 128px;
     }
 
     .about_center{
-      position: relative;
+      position: absolute;
       left: 10px;
-      top: 150px;
+      top: 285px;
     }
 
     .about_right{
-      position: relative;
+      position: absolute;;
       left: 10px;
-      top: 256px;
+      top: 446px;
+    }
+
+    .about_headerleft, .about_headercenter, .about_headerright{
+      width: 200px;
+      position: absolute;
+      top: -80px;
     }
 
     .about_left .left_text, .about_center .center_text, .about_right .right_text{
@@ -700,8 +706,8 @@ header{
       font-family: sans-serif;
       color: rgb(188, 188, 190);
       text-transform: none;
-      width: 355px;
-      height: 140px;
+      width: 48vw;
+      height: 90px;
       text-overflow: ellipsis;
       overflow: hidden;
       overflow-wrap: break-word;
@@ -717,7 +723,7 @@ header{
       font-family: sans-serif;
       color: rgb(147, 147, 147);
       text-transform: none;
-      width: 360px;
+      width: 48.5vw;
       height: 165px;
       white-space: pre-wrap;
       text-overflow: ellipsis;
@@ -768,7 +774,7 @@ header{
     font-family: sans-serif;
     color: rgb(147, 147, 147);
     text-transform: none;
-    width: 460px;
+    width: 65vw;
     height: 100px;
     white-space: pre-wrap;
     text-overflow: ellipsis;
@@ -787,7 +793,7 @@ header{
     font-family: sans-serif;
     color: rgb(147, 147, 147);
     text-transform: none;
-    width: 460px;
+    width: 65vw;
     height: 100px;
     white-space: pre-wrap;
     text-overflow: ellipsis;
@@ -806,7 +812,7 @@ header{
     font-family: sans-serif;
     color: rgb(147, 147, 147);
     text-transform: none;
-    width: 460px;
+    width: 65vw;
     height: 100px;
     white-space: pre-wrap;
     text-overflow: ellipsis;
